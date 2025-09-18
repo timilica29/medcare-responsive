@@ -1,0 +1,329 @@
+:root {
+  --brand-color: #0aacaa;
+  --secondary-color: #2d335a;
+  --subheading-size: 1.25rem;
+  --font-weight-sb: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik";
+}
+
+.navbar-container {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-icons,
+ul {
+  display: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1750px;
+}
+
+.hero {
+  background-image: url("/HeroPictures/hero-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 340px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 10px;
+}
+
+.hero-headings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.hero-headings h1 {
+  font-weight: var(--font-weight-sb);
+  font-size: 1.75rem;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.highlight {
+  color: var(--secondary-color);
+}
+
+.hero-headings p {
+  font-weight: var(--font-weight-medium);
+  font-size: 0.875rem;
+  color: #d0efef;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: var(--font-weight-sb);
+  letter-spacing: 0.03em;
+  font-size: 0.9375rem;
+}
+
+.patients,
+.doctors,
+.reviews {
+  width: 100%;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+  margin: 0px 10px 20px 10px;
+}
+
+.appointment-headings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.appointment-headings h2 {
+  font-size: 20px;
+  font-weight: var(--font-weight-sb);
+  color: #0aacaa;
+}
+
+.appointment-headings h3 {
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
+  width: 302px;
+}
+
+.appointment-dropdowns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f2fbfa;
+  border-radius: 15px;
+}
+
+.dropdown-category {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.dd-label {
+  font-weight: var(--font-weight-regular);
+  font-size: 10px;
+  color: gray;
+}
+
+.dd-value {
+  font-weight: var(--font-weight-medium);
+  font-size: 12px;
+}
+
+.search-btn {
+  height: 50px;
+  background-color: #0aacaa;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-family: "Rubik";
+  font-weight: var(--font-weight-medium);
+}
+
+/* media querries for hero section */
+@media (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  /* styling the navbar for desktop */
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 141px;
+    height: 38px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: var(--font-weight-medium);
+  }
+
+  .nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .signUp-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    font-family: "Rubik";
+    background-color: #0aacaa;
+    border: none;
+    border-radius: 15px;
+  }
+
+  /* styling the hero for desktop */
+  .hero {
+    background-image: url("/HeroPictures/hero-f.png");
+    height: 100vh;
+    position: relative;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin: 0 0px 130px 160px;
+    gap: 40px;
+  }
+
+  .hero-headings h1 {
+    font-size: 65px;
+    font-weight: var(--font-weight-sb);
+    text-align: left;
+  }
+
+  .hero-headings p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .hero-stats {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    width: 600px;
+  }
+
+  .patients,
+  .doctors {
+    border-right: 2px solid white;
+  }
+
+  .doctors,
+  .reviews {
+    padding-left: 50px;
+  }
+
+  /* styling the appointment for desktop */
+  .appointment {
+    background: #f2fbfa;
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    top: -6rem;
+    border-radius: 20px;
+    padding: 30px 0px;
+    gap: 35px;
+  }
+
+  .appointment-headings h3{
+    width:auto;
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .appointment-headings h2{
+    width:auto;
+    font-size: 22px;
+    width: 500px;
+  }
+
+  .appointment-dropdowns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dropdown-container{
+    background: white;
+    width: 260px;
+    height: 60px;
+  }
+
+  .dd-label{
+    font-size: 10px;
+  }
+
+  .dd-value{
+    font-size: 12px;
+  }
+
+  .search-btn{
+    width: 130px;
+  }
+}
