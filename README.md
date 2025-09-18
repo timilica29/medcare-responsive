@@ -20,10 +20,6 @@ Mobile
 <img width="346" height="747" alt="brave_screenshot_timilica29 github io (1)" src="https://github.com/user-attachments/assets/4e3a994b-633a-4278-94d9-72d5752c1e54" />
 
 
-Tablet
-
-<img width="1147" height="710" alt="brave_screenshot_timilica29 github io (3)" src="https://github.com/user-attachments/assets/e2046ab2-3a28-486d-b782-21e8a0ef26be" />
-
 
 Desktop
 
