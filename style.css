@@ -49,7 +49,7 @@ ul {
 }
 
 .hero {
-  background-image: url("HeroPictures/hero-mobile.png");
+  background-image: url("../HeroPictures/hero-mobile.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -236,7 +236,7 @@ ul {
 
   /* styling the hero for desktop */
   .hero {
-    background-image: url("HeroPictures/hero-f.png");
+    background-image: url("../HeroPictures/hero-f.png");
     height: 100vh;
     position: relative;
   }
