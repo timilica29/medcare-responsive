@@ -24,3 +24,4 @@ Mobile
 Desktop
 
 <img width="1894" height="903" alt="brave_screenshot_timilica29 github io" src="https://github.com/user-attachments/assets/8cb8027f-33ec-4e2f-a062-f964c1755bbd" />
+<img width="1888" height="905" alt="brave_screenshot_timilica29 github io" src="https://github.com/user-attachments/assets/da5840dc-81f0-479c-9e11-c18a39dafa42" />
